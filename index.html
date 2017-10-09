@@ -2,69 +2,103 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-<link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css">
+	<title></title>
+
+	<style>
+		.wrap{
+			width: 100vw;
+			height: 100vh;
+			background:rgba(30,80,110,0.6);
+			color: white;
+			border: 1px solid;
+			position: relative;			
+		}
+		.bottom1{
+			width: 100vw;
+			background: white;
+			border: 1px solid;
+			padding-top: 20px;
+			padding-bottom: 40px
+		}
+		.bottom2{width: 100vw;
+			background: black;
+			border: 1px solid;
+			padding-top: 20px;
+			padding-bottom: 40px
+		}
+		.content{width: 75%;
+			text-align: center;
+			margin:auto;
+			position: absolute;
+			bottom: 30vh;
+			margin-left: 12%;
+			z-index: 10;
+		}
+		.p1{font-size: 50px;
+			font-weight: bold;
+		}
+		.s1{
+			font-size: 25px
+		}
+		.btn{
+			background: #3db2a0;
+			height: 50px;
+			width: 200px;
+			margin: 0 auto;
+			text-align: center;
+			line-height: 50px;
+			margin-top: 40px
+		}
+		.bot1{
+			width: 75%;
+			text-align: center;
+			margin:auto;
+			margin-left: 12%;
+		}
+		.p2{font-size: 25px;
+			color: black
+		}
+		.s2{color: black}
+		.p3{font-size: 25px;
+			color: white
+		}
+		.s3{color: white}
+		video{
+			object-fit: fill;
+		}
+		.top{
+			width: 100vw;
+			height: 100vh;
+			position: absolute;
+		}
+	</style>
 </head>
 <body>
-	 <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div>
-
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; 2016 Company, Inc.</p>
-      </footer>
-    </div>
+<div class="top">
+	<video autoplay loop style="width:100%;height:100%">
+		<source src="https://production.cdmycdn.com/assets/marketing-pages/intensives/bws/coding-scenes-9a2031e8142b40bdb5d936d5eef33dfa.mp4" type="video/mp4">
+	</video>
+</div>
+	<div class="wrap">
+	 
+		<div class="content">
+			<p class="p1">Welcome Everyone</p>
+			<span class="s1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id temporibus perferendis necessitatibus numquam amet impedit explicabo? Debitis quasi ullam aperiam!</span>
+			<div class="btn">Find Out More</div>
+		</div>
+		
+	</div>
+	<div class="bottom1">
+		<div class="bot1">
+			<p class="p2">Section A</p>
+			<span class="s2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</span>
+		</div>
+	</div>
+	<div class="bottom2">
+		<div class="bot1">
+			<p class="p3">Section B</p>
+			<span class="s3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</span>
+		</div>
+	</div>
 </body>
 </html>
